@@ -2,15 +2,29 @@
 
 Salvaged an older digital alarm clock with a non-working board and retrofitted it using an Arduino UNO board.
 
+![Inner Clock Setup](img/inner-setup.png)
+
 The clock didn't lose any of its functionalities. Furthermore, all of the electronic components used for this project -Arduino board included- fit inside the clock, where the factory board used to be. This means the entire project was done without altering the clock's outer shell. Therefore, it still looks the same as when it came out of the factory. Only some minor modifications were made to the device's inner shell.
 
 ## About The Clock
 
-The device is an `Advance` brand (model `4053`) alarm clock. It features a red, LED 7 segment display.
+![Clock Telling The Time](img/clock-normal.png)
 
-It also has a 10 digit keypad as well as `AM`, `PM`, `ENT`, `TM`, `AL`, `SNOOZE` buttons and a `ON/OFF` switch. No information was found about the clock itself on the internet.
+The device is an `Advance` brand (model `4053`) alarm clock. It features a red, LED 7 segment display; which resembles the following [schematic](https://electronics.stackexchange.com/questions/69440/alarm-clock-7-segment-led-display):
+
+![Display Schematic](img/display-schematics.jpg)
+
+![LCD Display](img/lcd-display.png)
+
+This clock also came with a 10 digit keypad as well as `AM`, `PM`, `ENT`, `TM`, `AL`, `SNOOZE` buttons and a `ON/OFF` switch.
+
+![Keypad](img/keypad.png)
 
 It came from factory with an `AC120V`, `60hz`, `5w` power supply. Apparently, it could either be powered via a `9v` battery (rectangular battery), or through an electrical outlet, since it had both a battery slot and an `Type A` electrical plug.
+
+![Manufacturing Information](img/underside.png)
+
+No further information was found about the clock itself on the internet.
 
 ## Notes
 
